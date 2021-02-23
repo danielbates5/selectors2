@@ -1,0 +1,65 @@
+/* CSS Document */
+*{
+	background-color: bisque
+}
+button{
+	font-size: 30px;
+	background-color: palegoldenrod
+
+}
+h1, h2{
+	color: goldenrod
+}
+#sighnup{
+	background-color: burlywood;
+	text-color: blanchedalmond
+}
+span{
+	color: darkgoldenrod
+}
+.tag{
+	background-color: tan
+}
+span a{
+	color: darkgoldenrod
+}
+a{
+	color: darkkhaki
+}
+imput + button{
+	background-color: floralwhite
+}
+footer > a{
+	color: darksalmon
+}
+imput[class="password"]{
+	background-color: gold
+}
+a[href*="google"]{
+	color: sandybrown
+}
+
+.post button:hover{
+	background-color: gold
+}
+a:hover{
+	text-decoration: overline;
+}
+.post a{
+	color: gold;
+	text-decoration: none
+}
+button:active{
+	background-color: gold
+}
+.post:nth-of-type(2n){
+	background-color: lightgoldenrodyellow
+}
+h2::first-letter{
+	font-size: 50px;
+}
+p::first-line{
+	color: gold
+}
+p::selection{
+	background-color: gold
